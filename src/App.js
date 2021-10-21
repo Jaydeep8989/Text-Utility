@@ -49,7 +49,7 @@ function App() {
           <Route exact path="/contacts">
             <Contacts mode={mode} />
           </Route>
-          <Route exact path="/Text-Utility">
+          <Route exact path="/">
             <TextForm showAlert={showAlert} heading="TextUtils help you for the words and characters count and remove the extra spaces from sentences. " mode={mode}/>
           </Route>
     </Switch>
