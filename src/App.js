@@ -1,6 +1,6 @@
-import './App.css';
 import Navbar from './components/Navbar';
 import TextForm from './components/TextForm';
+import Contacts from './components/Contacts';
 import React, { useState } from 'react';
 import Alert from './components/Alert';
 import {
@@ -8,7 +8,6 @@ import {
   Switch,
   Route
 } from "react-router-dom";
-import Contacts from './components/Contacts';
 
  
 function App() {
@@ -49,8 +48,8 @@ function App() {
           <Route exact path="/contacts">
             <Contacts mode={mode} />
           </Route>
-          <Route exact path="/">
-            <TextForm showAlert={showAlert} heading="TextUtils help you for the words and characters count and remove the extra spaces from sentences. " mode={mode}/>
+          <Route exact path="/Text-Utility">
+            <TextForm showAlert={showAlert} heading="Try TextUtils - word counter, character counter, remove extra spaces" mode={mode}/>
           </Route>
     </Switch>
     </div>
