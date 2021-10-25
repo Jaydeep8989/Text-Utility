@@ -1,1 +1,0 @@
-{"version":3,"sources":["webpack://src/index.css","webpack://src/components/Custom.css"],"names":[],"mappings":"AAAA,wBACI,wBAAiB,CAAjB,gBACJ,CCFA,WACI,uBACF","file":"main.ab827ee2.chunk.css","sourcesContent":[".accordion-button::after {\r\n    filter: invert(1);\r\n}",".btn-color {\r\n    color: rgb(5, 1, 1) !important;\r\n  }"]}
