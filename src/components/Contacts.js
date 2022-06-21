@@ -17,7 +17,7 @@ export default function Contacts(props) {
                 <h1 className="my-4" style={{color: props.mode=== 'light'?'#042743':'white'}}>Contact Us</h1>
             </center>
             <center>
-                <h6>Please feel free to contact us. We appreciate your feedback in case you have a technical problem, have a suggestion for a new functionality or a change to an existing one.</h6>
+                <h6>Please feel free to contact us. We appreciate your feedback in case you have a technical problem, have a suggestion for a new functionality or a change to an existing one. Contact us here: abc@gmail.com</h6>
             </center>
             <center>
                 <h2 className="my-3">Feedback</h2>   
